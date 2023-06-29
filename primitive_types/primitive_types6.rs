@@ -1,0 +1,21 @@
+// primitive_types6.rs
+// Use a tuple index to access the second element of `numbers`.
+// You can put the expression for the second element where ??? is so that the test passes.
+// Execute `rustlings hint primitive_types6` or use the `hint` watch subcommand for a hint.
+
+
+#[test]
+fn indexing_tuple() {
+    let numbers: (i32, i32, i32) = (1, 2, 3);
+    // Replace below ??? with the tuple indexing syntax.
+    let first : i32 = numbers.0;
+    let second: i32 = numbers.1;
+    let third: i32 = numbers.2;
+
+    assert_eq!(1, first,
+                "This is not the 1st number in the tuple!");
+    assert_eq!(2, second,
+                "This is not the 2nd number in the tuple!");
+    assert_eq!(3, third,
+                "This is not the 3rd number in the tuple!");
+}
