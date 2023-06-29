@@ -1,3 +1,15 @@
+# Answers to the following rustling github repo 
+
+The repo in reference can be found here!
+
+https://github.com/rust-lang/rustlings.git 
+
+
+I highly reccommend this highly interactive way to learn Rust!
+Attached are all the Exercises and their chapters! 
+
+Enjoy!
+
 # Exercise to Book Chapter mapping
 
 | Exercise               | Book Chapter        |
